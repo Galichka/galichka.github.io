@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;  
+}
+body{
+	background-image:url(https://www.barraques.cat/pngfile/big/0-7755_nature-pier-bridge-d-river-water-sunset-night.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	 
+}
+img{
+	display: block;
+	width: 100%;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	/*background-color: green;*/
+}
+.logo{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+}
+nav{
+	width: 80%;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	/*background-color: red;*/
+
+}
+.menu > li{
+	/*width: 25%;*/
+	/*background-color: blue;*/
+	flex-grow: 1; 
+}
+/*.menu > li:hover{
+	border-bottom:1px solid black;
+	padding-bottom: 10px; 
+}*/
+.menu > li > a{
+	display: inline-block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.menu > li > a:hover{
+	border-bottom: 1px solid #fff;
+}
+.info{
+	width: 30%;
+}
+.btn{
+	display: block;
+	width: 268px;
+	height: 58px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	line-height: 59px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: #fff;
+	color: black;
+}
+main{
+	/*background-color: red;*/
+	display: flex;
+	margin: 20px;
+}
+.info{
+	background-color: #fff;
+	padding: 25px;
+}
+.name{
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+.profession{
+	padding: 5%;
+	background-color: #D0D3D4;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+.about{
+	/*background-color: pink;*/
+	margin: 20px;
+}
+.hello{
+	background-color: #E5E7E9;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 20px;
+	width: 20%; 
+}
+.skills{
+	color: #fff;
+	font-size: 1.2em;
+	padding-top: 70px;
+	padding-bottom: 200px;
+
+}
+footer{
+	background-color: rgba(37,50,64,0.7);
+}
+.footer-title{
+	padding: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+.map{
+	width: 40%
+}
+.form{
+	padding: 0px 20px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+form > input, form > textarea{
+	margin-bottom: 10px;
+}
+.contact-info{
+	text-align: right;
+}
+.contact-info_item-title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contact-info_item{
+	padding-bottom: 10px;
+	color: #fff;
+}
+.contact-info_item-value > a{
+	color: #fff;
+	text-decoration: none;
+}
+.contact-info_item-value > a:hover{
+	color: orange;
+}
