@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}  
+.main-wrap{
+	margin: 0 auto;
+	width: 760px;
+	background-color: #d1d1d1;
+	padding: 58px 58px 108px 58px;
+}
+.header-bg{
+	background-image: url('../images/header_bg.gif');
+	height: 150px;
+	background-size: cover;
+}
+.wrap{
+	padding: 50px 50px 30px 50px;
+	background-color: #fff;
+}
+.text-center{
+	text-align: center;
+	padding-bottom: 17px;
+}
+.main-text{
+	padding-bottom: 30px;
+}
+.text-bold{
+	font-weight: bold;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	min-height: 350px;
+}
+.btn {
+	display: block;
+	height: 40px;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #cf5b4e;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.propose{
+	width: 255px;
+}
+.propose_two{
+	width: 160px;
+}
+.propose-image{
+	padding-bottom: 18px;
+}
+.propose-text{
+	padding-bottom: 40px;
+}
+.text-italic{
+	font-style: italic;
+	padding-top: 15px;
+	padding-bottom: 60px;
+}
