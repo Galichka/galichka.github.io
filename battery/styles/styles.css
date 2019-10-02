@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+} 
+.battery-top {
+    width: 100px;
+    height: 40px;
+  	border: 4px solid black;
+  	margin: 10px;
+  	position: relative;
+ 	  box-shadow: inset 33px 0 0 0px #ed1c24;
+}
+.battery-mid {
+    width: 100px;
+    height: 40px;
+ 	  border: 4px solid black;
+  	margin: 10px;
+  	position: relative;
+  	box-shadow: inset 66px 0 0 0px #ffc60b;
+}
+.battery-bottom {
+    width: 100px;
+    height: 40px;
+ 	  border: 4px solid black;
+  	margin: 10px;
+  	position: relative;
+  	background: #00a055;
+  	box-shadow: none;
+}
+div:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    display: block;
+    height: 20px;
+    margin-top: -10px;
+    border-right: 4px solid black;
+  }
