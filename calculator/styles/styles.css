@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;  
+}
+.fullwrap{
+	margin: 0 auto;
+	border: 2px solid #5f9da0;
+	border-radius: 5px;
+	width: 410px;
+	height: 630px;
+}
+.name{
+	background-color: #5f9da0;
+	height: 50px;
+	text-align: right;
+	line-height: 55px;
+	color: #fff;
+	margin-top: 15px; 
+}
+input{
+	width: 100%;
+	height: 45px;
+	border: 2px solid #5f9da0;
+	margin: 15px 0;
+}
+.battery{
+	background-color: #5f9da0;
+	height: 50px;
+	width: 130px;
+	margin-bottom: 20px;
+	float: right; 
+}
+.figure{
+	float: left;
+	border: 2px solid #5f9da0;
+	border-radius: 10px;
+	height: 80px;
+	width: 80px;
+	color:  #5f9da0;
+	line-height: 80px;
+	text-align: center;
+	margin: 10px;
+}
+.c{
+	clear: both;
+}
