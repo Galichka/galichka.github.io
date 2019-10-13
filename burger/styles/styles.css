@@ -55,7 +55,7 @@
 .uppercase{
 	text-transform: uppercase;
 }
-.grey{
+.propose p {
 	color: #a4a4a4;
 }
 .hot_offer p:first-child{
@@ -84,6 +84,6 @@
     left: 100px;
     top: 9px;
 }
-.yellow{
+.hot_offer span{
 	color: yellow;
 }
