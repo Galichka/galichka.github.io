@@ -5,10 +5,10 @@
 }
 .fullwrap{
 	margin: 0 auto;
-	border: 2px solid #5f9da0;
-	border-radius: 5px;
+	border: 4px solid #5f9da0;
+	border-radius: 10px;
 	width: 410px;
-	height: 630px;
+	height: 600px;
 }
 .name{
 	background-color: #5f9da0;
@@ -16,32 +16,50 @@
 	text-align: right;
 	line-height: 55px;
 	color: #fff;
-	margin-top: 15px; 
+	margin-top: 15px;
+	font-size: 20px; 
 }
 input{
-	width: 100%;
+	width: 380px;
 	height: 45px;
-	border: 2px solid #5f9da0;
-	margin: 15px 0;
+	border: 3px solid #5f9da0;
+	border-radius: 5px;
+	margin: 10px 10px;
 }
 .battery{
 	background-color: #5f9da0;
 	height: 50px;
 	width: 130px;
 	margin-bottom: 20px;
+	margin-right: 10px;
 	float: right; 
 }
 .figure{
 	float: left;
-	border: 2px solid #5f9da0;
+	border: 3px solid #5f9da0;
 	border-radius: 10px;
 	height: 80px;
 	width: 80px;
 	color:  #5f9da0;
 	line-height: 80px;
 	text-align: center;
-	margin: 10px;
+	margin-right: 15px;
+	font-size: 25px;
 }
-.c{
+.figure:nth-child(4n){
+	margin: 0px;
+}
+.clearfix{
 	clear: both;
+}
+.row{
+	padding: 0px 17px 15px 17px;
+}
+.figure:hover{
+	background-color: #5f9da0;
+	color: #fff; 
+}
+.figure:active{
+	background-color: #5f9da0;
+	color: red;
 }
