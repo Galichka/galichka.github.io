@@ -82,7 +82,7 @@
     transform: rotate(45deg);
     position: relative;
     left: 100px;
-    top: 9px;
+    bottom: -5px;
 }
 .hot_offer span{
 	color: yellow;
