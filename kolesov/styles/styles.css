@@ -22,12 +22,10 @@ body{
 	background-color: var(--main-color);
 }
 .main-wrap:after{
-	content: "© Банкетный теплоход КолесовЪ";
+	content: "";
 	display: block;
 	height: 15px;
-	font-size: 12px;
 	border-radius: 2px;
-	color: #fff;
 	background-color: var(--main-color);
 }
 /*------------------HEADER--------------------*/
@@ -50,10 +48,11 @@ span{
 	font-size: 24px;
 	color: var(--main-color);
 }
-h1{
+h1 > a{
+	text-decoration: none;
 	color: var(--main-color);
 }
-div > a{
+.contacts div > a{
 	font-size: 20px;
 	color: var(--main-color);
 	text-decoration: none;
@@ -78,7 +77,7 @@ main{
 }
 ul > li{
 	list-style: none;
-	padding: 10px 0 0 10px;
+	padding: 20px 0 0 15px;
 }
 li > a{
 	color: var(--main-color);
@@ -86,13 +85,33 @@ li > a{
 	text-transform: uppercase;
 	border-bottom: 2px solid #a1acc0;
 }
+li > a:active{
+	color: red;
+	background-color: #839192; 
+}
+li > a:hover{
+	background-color: #839192; 
+}
 .information p{
 	padding-top: 10px;
-	font-size: 14px;
+	font-size: 16px;
 }
 .information p:last-child{
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
+footer{
+	position: absolute;
+}
+footer div{
+	padding-left: 22px;
+	position: relative;
+	bottom: 1px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
 @media screen and (min-width: 720px){
 	header{
 		text-align: left;
@@ -160,4 +179,8 @@ li > a{
 	ul > li{
 		padding-top: 13px;
 	}
+	footer div{
+		position: relative;
+		top: 10px;
+	}	
 }	
