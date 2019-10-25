@@ -1,0 +1,161 @@
+:root{
+	--main-color: #023875;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;  
+}
+body{
+	font-family: Arial;
+}
+.main-wrap{
+	margin: 0 auto;
+}
+.main-wrap:before{
+	content: "";
+	display: block;
+	height: 10px;
+	border-radius: 2px;
+	background-color: var(--main-color);
+}
+.main-wrap:after{
+	content: "© Банкетный теплоход КолесовЪ";
+	display: block;
+	height: 15px;
+	font-size: 12px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: var(--main-color);
+}
+/*------------------HEADER--------------------*/
+header{
+	text-align: center;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.logo{
+	margin: 0 auto;
+	width: 180px;
+	padding-top: 10px;
+}
+.contacts{
+	padding: 10px 0 10px;
+}
+span{
+	font-size: 24px;
+	color: var(--main-color);
+}
+h1{
+	color: var(--main-color);
+}
+div > a{
+	font-size: 20px;
+	color: var(--main-color);
+	text-decoration: none;
+}
+/*------------------MAIN------------------*/
+main{
+	padding: 0px 10px;
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+}
+.name-menu{
+	background-color: var(--main-color);
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	width: 300px;
+	text-align: center;
+}
+ul > li{
+	list-style: none;
+	padding: 10px 0 0 10px;
+}
+li > a{
+	color: var(--main-color);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid #a1acc0;
+}
+.information p{
+	padding-top: 10px;
+	font-size: 14px;
+}
+.information p:last-child{
+	padding-bottom: 10px;
+}
+@media screen and (min-width: 700px){
+	header{
+		text-align: left;
+		min-height: 165px;
+		padding: 25px 15px 0 15px;
+	}	 
+	.top-name{
+		float: left;
+	}
+	.logo{
+		float: left;
+	}
+	.contacts{
+		float: right;
+	}
+	.clearfix{
+		clear: both;
+	}
+	main{
+		padding: 0 15px 0 15px;
+	}
+	.menu{
+		padding-top: 20px;
+	}
+	.information > p{
+		padding-bottom: 20px;
+	}
+}	
+@media screen and (min-width: 960px){
+	.main-wrap{
+		width: 960px;
+		min-height: 900px;
+	}
+	.main-wrap:before{
+		height: 40px;
+		border-radius: 5px;
+	}
+	.main-wrap:after{
+		height: 40px;
+		padding-left: 22px; 
+		line-height: 40px;
+		font-size: 14px;
+		border-radius: 5px;
+	}
+	h1{
+		padding: 10px 0 10px;
+		font-size: 48px; 
+	}
+	.wrapper{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.information > p:first-child{
+		padding: 40px 0 25px; 
+	}
+	.information > p{
+		padding-bottom: 20px;
+	}
+	.information > p:last-child{
+		padding-bottom: 110px;
+	}
+	.menu{
+		padding: 30px 0 0 30px;
+	}	 
+	ul > li{
+		padding-top: 13px;
+	}
+}	
