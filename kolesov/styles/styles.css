@@ -91,7 +91,7 @@ li > a{
 .information p:last-child{
 	padding-bottom: 10px;
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 720px){
 	header{
 		text-align: left;
 		min-height: 165px;
